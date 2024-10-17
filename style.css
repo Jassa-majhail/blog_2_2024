@@ -1,9 +1,62 @@
-img{
-    width: 400px;
-    height: 400px;
-    display: block;
-    margin-right: 40px;
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
-h1>span{
-    
+
+/* Main heading styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Article styles */
+article {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Article title styles */
+h2 {
+    color: #2c3e50;
+}
+
+/* Image styles */
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Link styles */
+a {
+    display: block;
+    margin: 10px 0;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Time element styles */
+time {
+    display: block;
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+p {
+    color: #444;
 }
